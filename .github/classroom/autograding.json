@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Jurnal01",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "",
+      "output": "Hello World",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 100
+    }
+  ]
+}
