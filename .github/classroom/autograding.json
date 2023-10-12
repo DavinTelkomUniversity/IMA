@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Jurnal01a",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "Dira\nRadi\nIdar\n-",
+      "output": "Bulan 1: Dira\nBulan 2: Radi\nBulan 3: Idar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Jurnal02a",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "10\n1 8 1 1 2 6 8 10 9 3",
+      "output": "Tier 1 :*****\nTier 2 :****\nTier 3 :*",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Jurnal03a",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "4 8 3 2 8 7 1 6 8 -1",
+      "output": "8",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Jurnal03b",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "1 3 2 4 1 4 -1",
+      "output": "4",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "TP01a",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "3\nDira\nRadi\nIdar",
+      "output": "Bulan 1: Dira\nBulan 2: Radi\nBulan 3: Idar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "TP02a",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "10\n1 8 1 1 2 6 8 10 9 3",
+      "output": "10 9 8 8 6 3 2 1 1 1",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+	{
+      "name": "TP02b",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "6\n4 8 3 2 8 7",
+      "output": "8 8 7 4 3 2",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP03a",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "10\n4 8 3 2 8 7 1 6 9 6",
+      "output": "Min: 1\nMax: 9\nAvg: 5.40",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+   {
+      "name": "TP03a",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "6\n1 3 2 4 1 4",
+      "output": "Min: 1\nMax: 4\nAvg: 2.50",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    }
+  ]
+}
