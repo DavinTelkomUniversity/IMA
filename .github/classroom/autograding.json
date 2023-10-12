@@ -1,0 +1,141 @@
+{
+  "tests": [
+    {
+      "name": "Jurnal01a",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "2",
+      "output": "Faktor dari 24 dan 56 ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Jurnal01b",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "3",
+      "output": "Bukan faktor dari 24 dan 56 ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal02a",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "43",
+      "output": "Penghasilan kotor = 43 juta Rupiah\nPajak 5% = Rp. 2150000\nPenghasilan bersih = Rp. 40850000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal02b",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "512",
+      "output": "Penghasilan kotor = 512 juta Rupiah\nPajak 30% = Rp. 153600000\nPenghasilan bersih = Rp. 358400000",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal03a",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "75 78 74",
+      "output": "Idar, Dira, Radi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },{
+      "name": "Jurnal03b",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "81 75 79",
+      "output": "Radi, Idar, Dira",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },{
+      "name": "Jurnal03c",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "80 82 85 ",
+      "output": "Dira, Radi, Idar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "TP01a",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "36",
+      "output": "Kelipatan enam",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP01b",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "17",
+      "output": "Bukan kelipatan enam",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },  
+    {
+      "name": "TP02a",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "250000",
+      "output": "Transaksi = 250000\nTotal = 250000 - 25000\nPpn 11% = 24750.0\nTotal dibayar = 249750.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP02b",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "100000",
+      "output": "Transaksi = 100000\nTotal = 100000\nPpn 11% = 11000.0\nTotal dibayar = 111000.0",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP03a",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "75 78 74",
+      "output": "Radi",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP03b",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "81 75 79",
+      "output": "Dira",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    },{
+      "name": "TP03c",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "80 82 85",
+      "output": "Idar",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    }
+  ]
+}
