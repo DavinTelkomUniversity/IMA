@@ -1,0 +1,134 @@
+{
+  "tests": [
+    {
+      "name": "Jurnal01a",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "8",
+      "output": "1 – Ganjil\n2 – Genap\n3 – Ganjil\n4 – Genap\n5 – Ganjil\n6 - Genap\n7 – Ganjil\n8 – Genap",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal01b",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "3",
+      "output": "1 – Ganjil\n2 – Genap\n3 – Ganjil",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal02a",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "",
+      "output": "1 4 9 16 25 36 49 64 81 100",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal03a",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "1",
+      "output": "BUKAN",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal03b",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "2",
+      "output": "YA",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal03c",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "3",
+      "output": "YA",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Jurnal03d",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "4",
+      "output": "BUKAN",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "TP01a",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "2",
+      "output": "1 x 2 = 2\n2 x 2 = 4\n3 x 2 = 6\n4 x 2 = 8\n5 x 2 = 10\n6 x 2 = 12\n7 x 2 = 14\n8 x 2 = 16\n9 x 2 = 18\n10 x 2 = 20",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP01b",
+      "setup": "javac TP01.java",
+      "run": "java TP01",
+      "input": "9",
+      "output": "1 x 9 = 9\n2 x 9 = 18\n3 x 9 = 27\n4 x 9 = 36\n5 x 9 = 45\n6 x 9 = 54\n7 x 9 = 63\n8 x 9 = 72\n9 x 9 = 81\n10 x 9 = 90",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP02a",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "5",
+      "output": "120",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP02b",
+      "setup": "javac TP02.java",
+      "run": "java TP02",
+      "input": "9",
+      "output": "362880",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 5
+    },
+    {
+      "name": "TP03a",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "5",
+      "output": "5\n4\n3\n2\n1\nGO!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 3
+    },
+    {
+      "name": "TP03b",
+      "setup": "javac TP03.java",
+      "run": "java TP03",
+      "input": "3",
+      "output": "3\n2\n1\nGO!!!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
