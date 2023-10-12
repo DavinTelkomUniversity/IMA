@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Soal01a",
+      "setup": "javac Soal01.java",
+      "run": "java Soal01",
+      "input": "4\n9\n2\n3\n8",
+      "output": "HIDUP MATI\nHIDUP HIDUP\nMATI HIDUP\nMATI MATI",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Soal01b",
+      "setup": "javac Soal01.java",
+      "run": "java Soal01",
+      "input": "3\n6\n1\n4",
+      "output": "HIDUP HIDUP\nHIDUP MATI\nMATI MATI",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	{
+      "name": "Soal02b",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "DIRA UDAH BELAJAR BUAT ASESMEN ALGORITMA BELUM\nAR",
+      "output": "DIRAAR HADUAR BELAJARAR TAUBAR ASESMENAR AMTIROGLAAR BELUMAR ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Soal02a",
+      "setup": "javac Soal02.java",
+      "run": "java Soal02",
+      "input": "SEMOGA ASESMEN ALGORITMA SESI CODINGNYA SUKSES YA\nES",
+      "output": "SEMOGAES NEMSESAES ALGORITMAES ISESES CODINGNYAES SESKUSES YAES ",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Soal03",
+      "setup": "javac Soal03.java",
+      "run": "java Soal03",
+      "input": "3\n50 22 31\n47 73 52\n99 61 11",
+      "output": "11 22 31\n47 50 52\n61 73 99",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Soal04a",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "8 56\n10 27 32 47 9 13 20 11",
+      "output": "4 5",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Soal04b",
+      "setup": "javac Soal04.java",
+      "run": "java Soal04",
+      "input": "12 77\n10 27 32 47 9 13 20 11 21 14 30",
+      "output": "4 11",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+	  {
+      "name": "Soal05a",
+      "setup": "javac Soal05.java",
+      "run": "java Soal05",
+      "input": "2 4\n9 3 5 6 7 9 8 7\n8 8 8 8 7 8 6 5\n3 7 7 8 9 3 7 8",
+      "output": "RT 01 juara umum perlombaan",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Soal05a",
+      "setup": "javac Soal05.java",
+      "run": "java Soal05",
+      "input": "3 4\n9 4 7 8 2 3 4 5 1 9 3 1\n7 9 9 9 6 7 9 9 9 1 10 7\n3 4 2 9 9 9 9 4 5 6 7 8",
+      "output": "RT 02 juara umum perlombaan",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
