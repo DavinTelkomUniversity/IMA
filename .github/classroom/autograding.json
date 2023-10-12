@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Jurnal01",
+      "setup": "javac Jurnal01.java",
+      "run": "java Jurnal01",
+      "input": "3 4",
+      "output": "81",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Jurnal02",
+      "setup": "javac Jurnal02.java",
+      "run": "java Jurnal02",
+      "input": "140 250",
+      "output": "10",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    },
+    {
+      "name": "Jurnal03a",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "2",
+      "output": "Cakram 1 dipindahkan dari A ke B\nCakram 2 dipindahkan dari A ke C\nCakram 1 dipindahkan dari B ke C\n",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Jurnal03b",
+      "setup": "javac Jurnal03.java",
+      "run": "java Jurnal03",
+      "input": "3",
+      "output": "Cakram 1 dipindahkan dari A ke C\nCakram 2 dipindahkan dari A ke B\nCakram 1 dipindahkan dari C ke B\nCakram 3 dipindahkan dari A ke C\nCakram 1 dipindahkan dari B ke A\nCakram 2 dipindahkan dari B ke C\nCakram 1 dipindahkan dari A ke C",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 20
+    }
+  ]
+}
